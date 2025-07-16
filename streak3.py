@@ -7,7 +7,7 @@ from wordcloud import WordCloud
 
 st.title('My First Dashboard')
 
-file_upload=st.file_uploader('Upload csv file',type='CSV')
+file_upload=st.file_uploader('Upload csv file',type='csv')
 
 if file_upload is None:
     st.write('CSV file is not uploaded')
